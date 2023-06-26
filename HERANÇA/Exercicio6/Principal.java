@@ -13,7 +13,7 @@ public static void main(String[] args) {
     p1.setNome("jairo");
     p2.setNome("julia"); 
     p3.setNome("Kbarni");
-    p4.setNome("Ana Clara s2"); // <<<<< s2 demais pqp
+    p4.setNome("Ana Clara");
     
 
     p1.setSexo("M");
