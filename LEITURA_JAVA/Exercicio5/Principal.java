@@ -1,4 +1,4 @@
-package Leitura_java.Exercicio5;
+package LEITURA_JAVA.Exercicio5;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
