@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Principal2 {
+public class Principal {
     
     public static void main(String[] args) {
         

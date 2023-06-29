@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Principal3 {
+public class Principal {
     
     //ESTRUTURA RECOMENDADA PARA LEITURA DE ARQUIVOS DE TEXTO
 

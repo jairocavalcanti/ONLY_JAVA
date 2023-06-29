@@ -20,12 +20,12 @@ public class Principal {
      valores.add(5);
      valores.add(6);                   
 
-     /* operação LAMBDA, associada a um consumer */
+     /* operação LAMBDA associada a um consumer */
      //consumer precisa ser importado
-
      //Consumer<Integer> dobrar = (v) ->{dobro.add(v*2);};
      //valores.forEach(dobrar);
 
+     
      /* operação lambda adicionando elementos nas diversas coleções em decorrencia dos valores da primeira coleção*/
      valores.forEach((v) -> {
         dobro.add(v*2);

@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Principal4 {
+public class Principal {
     
     //ESTRUTURA RECOMENDADA PARA LEITURA DE ARQUIVOS DE TEXTO
 
