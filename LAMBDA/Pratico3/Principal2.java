@@ -24,13 +24,22 @@ public class Principal2 {
         System.out.println("ARRAY: ");
         System.out.println(array);
 
+        System.out.println("Deseja inserir soma aos elementos do ArrayList? ");
+        String escolha = scanner.next();
+
+        if(escolha.toLowerCase().equals("sim")){
         System.out.println("Insira o numero para soma: ");
         double elemento2 = scanner.nextDouble();
         
-        // Consumer<Double> consumer = ((E) -> {arraysoma.add(E + soma);});
         Consumer<Double> consumer = ((E) -> {soma.add(E + elemento2);});
-
         array.forEach(consumer);
+        }else{
+           System.out.println("Programa finalizado...");
+        }
+        
+
+        // Consumer<Double> consumer = ((E) -> {arraysoma.add(E + soma);});
+       
 
         System.out.println("ARRAY 2:");
         System.out.println(soma);
