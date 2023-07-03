@@ -29,6 +29,7 @@ public class Principal {
        System.out.println("Elementos do array somados a variavel soma: ");
        System.out.println(array2);
 
+       
 
 
         scanner.close();

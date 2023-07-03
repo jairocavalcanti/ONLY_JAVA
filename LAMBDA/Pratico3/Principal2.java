@@ -40,7 +40,7 @@ public class Principal2 {
 
         // Consumer<Double> consumer = ((E) -> {arraysoma.add(E + soma);});
        
-
+       
         System.out.println("ARRAY 2:");
         System.out.println(soma);
 
