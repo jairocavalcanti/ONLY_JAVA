@@ -1,8 +1,8 @@
-package METODOS;
+package METODOS.Testes;
 
 import java.util.Scanner;
 
-public class teste {
+public class MetodoInvestimento {
     public static void main(String[] args) {
         
     Scanner in = new Scanner(System.in); 

@@ -1,6 +1,6 @@
-package METODOS;
+package METODOS.Testes;
 
-public class Testes {
+public class Mathpow {
     public static void main(String[] args) {
     Double variavel1 = 2.0;
     Double variavel2 = 3.0;
