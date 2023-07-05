@@ -13,6 +13,6 @@ public class Principal {
     System.out.println("Caractere do meio da palavra inserida: " + Caractere.caracteredomeio(palavra));
 
     scanner.close();
-}
+    }
     
 }
