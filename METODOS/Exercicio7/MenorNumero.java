@@ -15,6 +15,6 @@ public class MenorNumero {
         }
 
         System.out.println("Menor numero inserido: " + position);
-    }
+    } 
 
 }
