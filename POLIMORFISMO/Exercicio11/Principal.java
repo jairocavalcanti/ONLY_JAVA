@@ -9,7 +9,9 @@ package POLIMORFISMO.Exercicio11;
 public class Principal {
     public static void main(String[] args) {
     
+        System.out.println("---");
         System.out.println("-------------------------------------------------------------------------------------------");
+        System.out.println("---");
 
         Shape shap = new Triangulo(20.00, 30.00);
         System.out.println("Comprimento da base do triangulo:  " + shap.getComprimentodabase());
