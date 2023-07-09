@@ -2,7 +2,7 @@ package JAVA_MATH.Exercicio1;
 
 import java.util.Scanner;
 
-public class Teste1 {
+public class PI {
 
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -16,7 +16,8 @@ public class Teste1 {
     System.out.println("Insira o terceiro numero:");
     float numero3 = scanner.nextFloat();
 
-    System.out.println( Math.PI + numero1 + numero2 + numero3);
+    //'Math.PI' armazena valor de pi = 3,14
+    System.out.println(Math.PI + numero1 + numero2 + numero3);
 
     System.out.println(numero3);
 
