@@ -5,17 +5,17 @@ public class Acoes implements metodos {
 
     @Override
     public void atacar() {
-    System.out.println("Atacando");
+    System.out.println("Atacando!");
     }
 
     @Override
     public void defender() {
-    System.out.println("Defendendo");        
+    System.out.println("Defendendo!");        
     }
 
     @Override
     public void miss() {
-    System.out.println("Miss"); 
+    System.out.println("Miss!"); 
     }
     
 }

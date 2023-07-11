@@ -13,7 +13,7 @@ public class Principal {
         Scanner scanner = new Scanner(System.in);
         Random rando = new Random(10);
   
-        System.out.println("Insira o tamanho do vetor:");
+        System.out.println("Insira o escolhido tamanho do vetor:");
         int T = scanner.nextInt();
     
         System.out.println();
