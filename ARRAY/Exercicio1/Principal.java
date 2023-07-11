@@ -3,6 +3,11 @@ package ARRAY.Exercicio1;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+  Codigo para criaçao de um vetor de tamanho definido pelo usuario 
+  Somando os valores inseridos 
+  e fazendo o calculo para obtençao de media aritmetica
+ */
 public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

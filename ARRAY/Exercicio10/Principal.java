@@ -1,9 +1,13 @@
-package VETORES.Exercicio4;
+package ARRAY.Exercicio10;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+  Programa para criaçao de vetor com numeros randomicos
+  Tamanho do vetor definido pelo usuario
+ */
 public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

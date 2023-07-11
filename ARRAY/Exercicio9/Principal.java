@@ -1,7 +1,9 @@
 package VETORES.Exercicio3;
 
 import java.util.Scanner;
-
+/*
+  Programa para teste de funçoes com vetores
+ */
 public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

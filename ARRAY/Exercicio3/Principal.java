@@ -3,7 +3,7 @@ package ARRAY.Exercicio3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-//Escreva um programa Java para remover um elemento específico de um array.
+//Programa Java para remover um elemento específico de um array.
 public class Principal {
     
     public static void main(String[] args) {

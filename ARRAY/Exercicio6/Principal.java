@@ -2,6 +2,9 @@ package ARRAY.Exercicio6;
 
 import java.util.Scanner;
 
+/*
+Codigo criado para testes com variadas operaçoes realizadas com vetor
+ */
 public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
