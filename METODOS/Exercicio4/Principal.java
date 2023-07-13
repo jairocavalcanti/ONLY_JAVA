@@ -1,4 +1,4 @@
-package METODOS.Exercicio5;
+package METODOS.Exercicio4;
 
 import java.util.Scanner;
 //Escreva um método Java (recebe n como entrada) para exibir uma matriz n por n

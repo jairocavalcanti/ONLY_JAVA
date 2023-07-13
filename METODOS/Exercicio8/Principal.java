@@ -1,4 +1,4 @@
-package METODOS.Exercicio9;
+package METODOS.Exercicio8;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package METODOS.Exercicio4;
+package METODOS.Exercicio3;
 
 // Escreva métodos Java para calcular a área de um triângulo
 

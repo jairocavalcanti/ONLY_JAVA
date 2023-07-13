@@ -1,4 +1,4 @@
-package METODOS.Exercicio6;
+package METODOS.Exercicio5;
 
 import java.util.Scanner;
 /* Escreva um método Java para calcular a média de três números */

@@ -1,4 +1,4 @@
-package METODOS.Exercicio5;
+package METODOS.Exercicio4;
 
 import java.util.Random;
 

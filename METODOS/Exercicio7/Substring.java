@@ -1,4 +1,4 @@
-package METODOS.Exercicio8;
+package METODOS.Exercicio7;
 
 public class Substring {
     public static void main(String[] args) {

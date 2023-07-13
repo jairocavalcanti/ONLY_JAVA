@@ -1,4 +1,4 @@
-package METODOS.Exercicio7;
+package METODOS.Exercicio6;
 
 public class MenorNumero {
     

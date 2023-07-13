@@ -1,4 +1,4 @@
-package METODOS.Exercicio6;
+package METODOS.Exercicio5;
 
 public class Media {
     
