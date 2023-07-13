@@ -2,7 +2,7 @@
 
 - Repositorio dedicado ao armazenamento de pratica pessoal básica na linguagem java
 
-## Topicos abordados de forma BÁSICA: 
+## Tópicos abordados de forma BÁSICA: 
 
 - ARRAY
 - ARRAY_LIST
