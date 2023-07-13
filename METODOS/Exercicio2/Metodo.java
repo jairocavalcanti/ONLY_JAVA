@@ -14,6 +14,7 @@ boolean decisao;
 public void verificaçao(){
     Scanner scanner = new Scanner(System.in);
 
+    System.out.println("---------------------");
     System.out.println("Escreva uma palavra ou frase qualquer:");
     select = scanner.next();
 
