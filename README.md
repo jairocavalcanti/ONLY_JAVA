@@ -4,7 +4,7 @@
 
 ## Topicos abordados de forma BÁSICA: 
 
-- ARRARY
+- ARRAY
 - ARRAY_LIST
 - DATA_E_HORA
 - ENCAPSULAMENTO
