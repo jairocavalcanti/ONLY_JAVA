@@ -1,16 +1,18 @@
-package METODOS.Exercicio4;
+package METODOS.Exercicio5;
 
-// Escreva métodos Java para calcular a área de um triângulo
-
+import java.util.Scanner;
+//Escreva um método Java (recebe n como entrada) para exibir uma matriz n por n
 public class Principal {
-   
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Metodomatriz met = new Metodomatriz();
+
+        System.out.println("Escolha o tamanho das linhas e colunas da matriz:");
+        int n = scanner.nextInt();
+
+        met.matriz(n);
     
-    Matematics mat = new Matematics();
-
-    mat.calculartriangulo();
-
-
+        scanner.close();    
     }
-
+    
 }

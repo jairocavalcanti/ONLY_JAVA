@@ -1,4 +1,4 @@
-package VETORES.Exercicio1;
+package ARRAY.Exercicio7;
 import java.util.Scanner;
 import java.util.Random;
 

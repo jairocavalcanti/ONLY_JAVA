@@ -1,4 +1,4 @@
-package VETORES.Exercicio3;
+package ARRAY.Exercicio9;
 
 import java.util.Scanner;
 /*

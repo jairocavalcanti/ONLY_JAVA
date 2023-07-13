@@ -1,18 +1,21 @@
-package METODOS.Exercicio8;
+package METODOS.Exercicio9;
 
 import java.util.Scanner;
 
+/*Escreva um método Java para contar todas as vogais em uma string */
+
 public class Principal {
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        Metodovogais met = new Metodovogais();
 
-    System.out.println("Insira uma palavra: ");
-    String palavra = scanner.next();
+        System.out.println("Insira uma palavra de sua escolha: ");
+        String palavra = scanner.next();
 
-    //Metodo estatico nao depende da instanciação da classe
-    System.out.println("Caractere do meio da palavra inserida: " + Caractere.caracteredomeio(palavra));
 
-    scanner.close();
+        met.metodo(palavra);
+
+
+        scanner.close();
     }
-    
 }

@@ -1,18 +1,16 @@
-package METODOS.Exercicio3;
-// Escreva um método Java que verifique se todos os caracteres em uma determinada string são vogais (a, e,i,o,u) ou não. 
-//Retorne true se cada caractere da string for uma vogal, caso contrário, retorne false
+package METODOS.Exercicio4;
 
-
+// Escreva métodos Java para calcular a área de um triângulo
 
 public class Principal {
-
+   
     public static void main(String[] args) {
-        
-        Metodo met = new Metodo();
-        met.verificaçao();
-            
-        
+    
+    Matematics mat = new Matematics();
+
+    mat.calculartriangulo();
+
+
     }
 
-    
 }

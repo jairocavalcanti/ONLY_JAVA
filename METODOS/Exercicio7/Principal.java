@@ -1,26 +1,20 @@
-package METODOS.Exercicio7;
+package METODOS.Exercicio8;
 
 import java.util.Scanner;
 
+/*Programa para criação de metodo capaz de imprimir o caracter do meio de uma palavra */
+
 public class Principal {
     public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-      MenorNumero men = new MenorNumero();
+    Scanner scanner = new Scanner(System.in);
 
-      System.out.println("Insira o primeiro numero: ");
-      double numero1 = scanner.nextDouble();
+    System.out.println("Insira uma palavra: ");
+    String palavra = scanner.next();
 
-      System.out.println("Insira o segundo numero: ");
-      double numero2 = scanner.nextDouble();
+    //Metodo estatico nao depende da instanciação da classe
+    System.out.println("Caractere do meio da palavra inserida: " + Caractere.caracteredomeio(palavra));
 
-      System.out.println("Insira o terceiro numero: ");
-      double numero3 = scanner.nextDouble();
- 
-      System.out.println();
-
-      men.menornumero(numero1, numero2, numero3);
-
-      scanner.close();
+    scanner.close();
     }
     
-   }
+}
