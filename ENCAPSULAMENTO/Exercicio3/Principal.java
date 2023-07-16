@@ -3,11 +3,21 @@ package ENCAPSULAMENTO.Exercicio3;
 public class Principal {
     public static void main(String[] args) {
         Acoes act = new Acoes();
-
-        act.atacar();
+ 
+  
+        act.ataquePesado();
+        act.ataqueleve();
+        act.ataquePesado();
+        act.HPSTATUS();
+        act.cura();
+        act.HPSTATUS();
         act.defender();
-        act.miss();
+        act.ataqueleve();
+        act.ataquePesado();
+      
+        
 
+   
     }
 
     
