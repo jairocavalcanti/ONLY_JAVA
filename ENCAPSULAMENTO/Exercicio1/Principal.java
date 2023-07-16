@@ -4,11 +4,15 @@ public class Principal {
     public static void main(String[] args) {
     
     PainelUsina panel = new PainelUsina();
+   
+   
     panel.ligar();
-    panel.sucesso();
+    panel.desligar();   
+    panel.sirene();
     panel.sequenciaemergencial();
-    panel.desligar();
-    
+    panel.evacuarusina();
+  
+  
     }
     
 
