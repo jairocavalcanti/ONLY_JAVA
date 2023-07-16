@@ -4,7 +4,6 @@ public class Principal {
     public static void main(String[] args) {
         Acoes act = new Acoes();
  
-  
         act.ataquePesado();
         act.ataqueleve();
         act.ataquePesado();
