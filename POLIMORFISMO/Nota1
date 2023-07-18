@@ -1,0 +1,45 @@
+package POLIMORFISMO.Exercicio1;
+
+//POLIMORFISMO
+
+// - Poli = muitas
+// - Morfo = formas
+   
+//Assinatura:
+
+// - A assinatura do metodo depende de 3 parametros: quantidade de atributos e tipos deles
+// - Nomes de atributos diferentes e tipos de retorno NÃO CONTAM
+
+
+                            //Assinatura do metodo
+// - public method calcmedia(n1: Real, n2: Real) : Real
+     
+
+          /*METODOS COM A MESMA ASSINATURA*/
+
+
+// - public method calcmedia(v1: Real, v2: Real) : Inteiro
+
+
+//-----------------------------------------------------------------------//
+
+                             
+// - public method calcmedia(bim: Inteiro, n1: Real, n2: Real) : Real
+
+
+             /*METODOS COM ASSINATURAS DIFERENTES*/
+
+
+// - public method calcmedia(n1: Real, n2: Real, n3: Real, n4: Real) : Real
+
+
+// - public method calcmedia(medmin: Real, medmax: Real, sit: Caractere, bim: Inteiro) : Caractere 
+
+    
+    
+
+
+
+
+
+
