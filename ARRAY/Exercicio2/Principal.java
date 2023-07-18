@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /*
- Codigo para criaçao de vetor com tamanho definido pelo usuario
- e obtençao de posiçao de elemento tambem inserido pelo usuario
+// Codigo para criaçao de vetor com tamanho definido pelo usuario
+// e obtençao de posiçao de elemento tambem inserido pelo usuario
  */
 public class Principal {
     public static void main(String[] args) {
