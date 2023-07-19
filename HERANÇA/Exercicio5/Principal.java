@@ -22,7 +22,7 @@ public class Principal {
     ele.setNome("televisão");
     ele.setNumerodeserie("#3322");
     ele.setQuantidade("30 unidades");
-    //atributos únicos da classe eletrodomesticos 
+   
     ele.tvligada();
     ele.tvstatus();
 
