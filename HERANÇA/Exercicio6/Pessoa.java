@@ -2,12 +2,11 @@ package HERANÇA.Exercicio6;
 
 public class Pessoa {
  
-   private String nome;
-   private int idade;
-   private String sexo;
+   public String nome;
+   public int idade;
+   public String sexo;
 
-
-
+   
 public void fazerAniversario(){
     this.idade ++;
 }
@@ -38,7 +37,7 @@ public void setSexo(String sexo) {
 
 @Override
 public String toString() {
-    return "Pessoa [nome = " + nome + ", idade = " + idade + ", sexo = " + sexo + "]";
+    return "Pessoa [nome: " + nome + " // idade: " + idade + " // sexo: " + sexo + "]";
 }
 
 

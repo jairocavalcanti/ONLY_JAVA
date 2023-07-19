@@ -12,13 +12,13 @@ public static void main(String[] args) {
 
     p1.setNome("jairo");
     p2.setNome("julia"); 
-    p3.setNome("Kbarni");
+    p3.setNome("Leandro");
     p4.setNome("Ana Clara");
     
 
     p1.setSexo("M");
     p2.setSexo("F");
-    p3.setSexo("F");
+    p3.setSexo("M");
     p4.setSexo("F");
     
 
@@ -28,10 +28,13 @@ public static void main(String[] args) {
     p4.setIdade(19);
      
 
+    p2.setMatricula(4551);
     p2.setCurso("DDS");
-    p3.setSalario(7000);
-    p4.setSetor("estoque");
     
+    p3.setSalario(7000);
+    p3.setEspecialidade("Ciencias Humanas");
+    
+    p4.setSetor("estoque");
     
     
     //LINHAS ERRADAS//
@@ -40,10 +43,18 @@ public static void main(String[] args) {
     //p2.mudarTrabalho();
     //p4.cancelarMatr();
 
+  
+    System.out.println("Atributos definidos pela classe mae 'Pessoa': ");
+    System.out.println();
     System.out.println(p1.toString());
+    System.out.println();
+
+    System.out.println("Classes herdando atributos: ");
+    System.out.println("------------------------------------------------------------");
     System.out.println(p2.toString());
     System.out.println(p3.toString());
     System.out.println(p4.toString());
+    System.out.println("------------------------------------------------------------");
   
    }   
 }
