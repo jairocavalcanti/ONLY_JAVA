@@ -3,6 +3,8 @@ package DATA_E_HORA.Exercicio1;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/* Programa para pratica de formatação de datas */
+
 public class Principal {
     public static void main(String[] args) {
     Date date1 = new Date();
