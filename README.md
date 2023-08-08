@@ -2,10 +2,10 @@
 
 - Repositorio dedicado ao armazenamento de pratica pessoal básica na linguagem java
 
-## Tópicos abordados de forma BÁSICA: 
+## Tópicos abordados de forma didática: 
 
 - ARRAY
-- ARRAY_LIST
+- ARRAY_LIST_E_ARRAY
 - DATA_E_HORA
 - ENCAPSULAMENTO
 - HERANÇA
