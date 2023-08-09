@@ -9,6 +9,7 @@ public abstract class Armas {
     public abstract void atirar();
     public abstract void mostrarnome();
     public abstract void mostrarclasse();
+    public abstract void mostrarpeso();
     
     
     public String getNome() {

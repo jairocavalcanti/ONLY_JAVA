@@ -18,6 +18,11 @@ public class Fuzil extends Armas {
         System.out.println("Fuzil de médio alcance");
     }
 
+    @Override
+    public void mostrarpeso() {
+        System.out.println("Peso do fuzil: " + getPeso());
+    }
+
    
     
     

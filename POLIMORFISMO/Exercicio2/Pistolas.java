@@ -18,5 +18,10 @@ public class Pistolas extends Armas {
        System.out.println("Pistola");
     }
 
+   @Override
+   public void mostrarpeso() {
+      System.out.println("Peso da pistola: " + getPeso());
+   }
+
 
 }
