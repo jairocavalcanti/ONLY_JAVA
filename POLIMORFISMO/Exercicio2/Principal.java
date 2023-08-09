@@ -18,7 +18,6 @@ public class Principal {
         p.mostrarclasse();
         p.mostrarpeso();
 
-
         System.out.println("------------------------");
 
         f.setNome("Fuzil");
@@ -27,7 +26,6 @@ public class Principal {
         f.atirar();
         f.mostrarclasse();
         f.mostrarpeso();
-
 
         System.out.println("-------------------------");
 
@@ -53,7 +51,6 @@ public class Principal {
         P.mostrarclasse();
         P.mostrarpeso();
        
-
         System.out.println("-------------------------");
 
         AK.setNome("AK47");
