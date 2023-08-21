@@ -15,7 +15,7 @@ public class Afazer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
        
-        Integer soma;
+       
         Integer matriz[][] = new Integer[2][2];
 
         int contador = 0;
@@ -68,70 +68,91 @@ public class Afazer {
 
 
        int linhas = 0;
+       int somalinha = 0;
        System.out.println("Primeira LINHA da matriz: ");
         for(int i = 0; i < matriz.length; i++){
-            System.out.printf("[" + matriz[0][linhas++] + "]");
+          int elemento = matriz[linhas][i];
+          somalinha += elemento;
+          System.out.printf("[" + elemento + "]");
         }
      
        System.out.println();
 
-       int linhas2 = 0;
+       int linhas2 = 1;
+       int somalinha2 = 0;
        System.out.println("Segunda LINHA da matriz: ");
         for(int i = 0; i < matriz.length; i++){
-            System.out.printf("[" + matriz[1][linhas2++] + "]");
+             int elemento = matriz[linhas2][i];
+             somalinha2 += elemento;
+             System.out.printf("[" + elemento + "]");
         }
         
-        System.out.println();
+        System.out.println("\n----------------------------------------");
 
       
         int coluna = 0;
-        int somaprimeiracoluna = 0;
+        int somacoluna = 0;
         System.out.println("Primeira COLUNA da matriz: ");
          for(int i = 0; i < matriz.length; i++){
             int elemento = matriz[i][coluna];
-            somaprimeiracoluna += elemento;
-            System.out.printf("[" + elemento + "]");
+            somacoluna += elemento;
+            System.out.println("[" + elemento + "]");
+        }
         
-           }
-        
+
         System.out.println();
        
-        int coluna2 = 0;
-        int golum = 0;
+
+        int coluna2 = 1;
+        int somacoluna2 = 0;
         System.out.println("Segunda COLUNA da matriz: ");
          for(int i = 0; i< matriz.length; i++){
-            System.out.printf("[" + matriz[coluna2++][1] + "]");
+            int elemento = matriz[i][coluna2];
+            somacoluna2 += elemento;
+            System.out.println("[" + elemento + "]");
         }
 
 
 
 
-        System.out.println("\n----------------------------------------");
+         System.out.println("\n----------------------------------------");
 
-       //\n
+         //\n
         
-        System.out.println("Soma da diagonal principal da matriz: " + result + "\n");
+         System.out.println("Soma da diagonal principal da matriz: " + result + "\n");
+
+         System.out.println("Soma da diagonal secundaria da matriz: " + result2 + "\n");
 
 
-        System.out.println("Soma da diagonal secundaria da matriz: " + result2);
 
- 
-       System.out.println(somaprimeiracoluna);
+         System.out.println("---------------- LINHAS ----------------");
 
-       /*  
-        Integer result2 = 0;
-        System.out.println("Primeira coluna da matriz:");
-        for(int i = 0; i<matriz.length; i++){
-            for(int j = 0; j<matriz[i].length; j++){
-              if(j>0){
-                System.out.println("[" + matriz[i][j-1] + "]");   
-                 result2 = result2 +=  matriz[i][j-1]; 
-                }
-            }
-        } 
-        */
+         System.out.println("Soma primeira LINHA da matriz: " + somalinha + "\n");
+
+         System.out.println("Soma segunda LINHA da matriz: " + somalinha2 + "\n"); 
+
+         
+
+         System.out.println("----------------   COLUNAS ----------------");
+
+         System.out.println("Soma da primeira COLUNA da matriz: " + somacoluna + "\n");
+
+         System.out.println("Soma da segunda COLUNA da matriz: " + somacoluna2 + "\n");
 
 
-        scanner.close();
+        boolean quadradomagico = result.equals(result2)    &&
+                                 result.equals(somalinha)  &&
+                                 result.equals(somalinha2) &&
+                                 result.equals(somacoluna) &&
+                                 result.equals(somacoluna2); 
+
+        if(quadradomagico){
+            System.out.println("A matriz acima é um quadrado mágico !!");
+        }else{
+            System.out.println("A matriz acima não é um quadrado mágico");
+        }
+
+
+         scanner.close();
     }
 }
