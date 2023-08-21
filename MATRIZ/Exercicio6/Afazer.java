@@ -2,13 +2,15 @@ package MATRIZ.Exercicio6;
 
 import java.util.Scanner;
 
-/*Crie em Java uma matriz 3x3 de inteiros, 
+/*
+Crie em Java uma matriz 2x2 de inteiros, 
 preencha a matriz e verifique se a matriz é um quadrado
 mágico. Diz-se que uma matriz é um quadrado 
 mágico quando a soma de todas as suas linhas, todas as
 suas colunas, sua diagonal principal e sua 
 diagonal secundária resultam no mesmo valor. Exemplo
-abaixo.  */
+abaixo.  
+*/
 public class Afazer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -36,35 +38,63 @@ public class Afazer {
             System.out.printf("%n");
         }
 
-         soma = 0;
-         for(int i = 0; i<matriz.length; i++){
-            for(int j = 0; j<matriz[i].length; j++){
-               if(matriz[i][j] %2 == 0){
-                 soma++;
-               }
-            }
-        }
  
         System.out.println();
 
         Integer result = 0;
-        System.out.println("Diagonal principal:");
-        for(int i =0; i<matriz.length; i++){
+        System.out.println("Diagonal principal: ");
+       for(int i =0; i<matriz.length; i++){
             System.out.printf("[" + matriz[i][i] + "]");
             if(matriz[i][i] > 0){
               result = result += matriz[i][i];
             }
         }
 
+      
+        System.out.println("\n----------------------------------------");
 
+
+        Integer result2 = 0;
+        System.out.println("Diagonal secundaria: ");
+        for(int i = 0; i<matriz.length; i++){
+            System.out.printf("[" + matriz[i][matriz.length - 1 -i] + "]");
+            if (matriz[i][matriz.length - 1 - i] > 0) {
+               result2 += matriz[i][matriz.length - 1 - i];
+        }
+     }
+
+       System.out.println("\n----------------------------------------");
+       System.out.println("\n----------------------------------------");
+
+
+
+       int linhas = 0;
+       System.out.println("Primeira LINHA da matriz: ");
+        for(int i = 0; i < matriz.length; i++){
+            System.out.printf("[" + matriz[0][linhas++] + "]");
+        }
+     
         System.out.println();
-        System.out.println("Soma da diagonal principal da matriz: " + result);
 
-        System.out.println("-------------------------------");
-        System.out.println("Numero pares da matriz:" + soma);
+       int linhas2 = 0;
+       System.out.println("Segunda LINHA da matriz: ");
+        for(int i = 0; i < matriz.length; i++){
+            System.out.printf("[" + matriz[1][linhas2++] + "]");
+        }
+        
+        System.out.println("\n----------------------------------------");
+
+       //\n
+        
+        System.out.println("Soma da diagonal principal da matriz: " + result + "\n");
+
+
+        System.out.println("Soma da diagonal secundaria da matriz: " + result2);
+
 
         System.out.println();
             
+
 
        /*  
         Integer result2 = 0;
@@ -81,5 +111,6 @@ public class Afazer {
 
 
         scanner.close();
-    }
+    
+  }
 }
