@@ -67,14 +67,13 @@ public class Afazer {
        System.out.println("\n----------------------------------------");
 
 
-
        int linhas = 0;
        System.out.println("Primeira LINHA da matriz: ");
         for(int i = 0; i < matriz.length; i++){
             System.out.printf("[" + matriz[0][linhas++] + "]");
         }
      
-        System.out.println();
+       System.out.println();
 
        int linhas2 = 0;
        System.out.println("Segunda LINHA da matriz: ");
@@ -82,6 +81,31 @@ public class Afazer {
             System.out.printf("[" + matriz[1][linhas2++] + "]");
         }
         
+        System.out.println();
+
+      
+        int coluna = 0;
+        int somaprimeiracoluna = 0;
+        System.out.println("Primeira COLUNA da matriz: ");
+         for(int i = 0; i < matriz.length; i++){
+            int elemento = matriz[i][coluna];
+            somaprimeiracoluna += elemento;
+            System.out.printf("[" + elemento + "]");
+        
+           }
+        
+        System.out.println();
+       
+        int coluna2 = 0;
+        int golum = 0;
+        System.out.println("Segunda COLUNA da matriz: ");
+         for(int i = 0; i< matriz.length; i++){
+            System.out.printf("[" + matriz[coluna2++][1] + "]");
+        }
+
+
+
+
         System.out.println("\n----------------------------------------");
 
        //\n
@@ -91,10 +115,8 @@ public class Afazer {
 
         System.out.println("Soma da diagonal secundaria da matriz: " + result2);
 
-
-        System.out.println();
-            
-
+ 
+       System.out.println(somaprimeiracoluna);
 
        /*  
         Integer result2 = 0;
@@ -111,6 +133,5 @@ public class Afazer {
 
 
         scanner.close();
-    
-  }
+    }
 }
