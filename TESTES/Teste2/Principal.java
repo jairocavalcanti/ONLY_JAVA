@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio2;
+package TESTES.Teste2;
 import java.util.Scanner;
 public class Principal {
 /*Crie uma classe Agenda que pode armazenar 10 pessoas e que seja capaz de realizar as

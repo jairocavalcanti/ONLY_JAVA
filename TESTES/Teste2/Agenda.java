@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio2;
+package TESTES.Teste2;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Random;

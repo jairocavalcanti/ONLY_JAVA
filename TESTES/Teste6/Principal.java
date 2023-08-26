@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio6;
+package TESTES.Teste6;
 
 import java.util.Scanner;
 

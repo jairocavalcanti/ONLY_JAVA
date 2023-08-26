@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio1;
+package TESTES.Teste1;
 
 public class Info {
 

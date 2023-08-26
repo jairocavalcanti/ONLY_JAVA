@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio4;
+package TESTES.Teste4;
 
 import java.util.Scanner;
 import java.util.Random;

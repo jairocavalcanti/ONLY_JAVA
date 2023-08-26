@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio5;
+package TESTES.Teste5;
 
 //"%" retorna a sobra da divisão;
   

@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio2;
+package TESTES.Teste2;
 
 public class Pessoa1 {
    

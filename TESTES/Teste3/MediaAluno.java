@@ -1,4 +1,4 @@
-package VARIADOS.Exercicio3;
+package TESTES.Teste3;
 import java.util.Scanner;
 /*Crie uma classe MediaAluno que contenha um atributo do tipo vetor de
 inteiros com o nome de notas. Essa classe deve ter um método para adicionar

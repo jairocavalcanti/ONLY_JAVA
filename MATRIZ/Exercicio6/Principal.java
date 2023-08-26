@@ -11,7 +11,7 @@ suas colunas, sua diagonal principal e sua
 diagonal secundária resultam no mesmo valor. Exemplo
 abaixo.  
 */
-public class Afazer {
+public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
        
@@ -133,7 +133,7 @@ public class Afazer {
 
          
 
-         System.out.println("----------------   COLUNAS ----------------");
+         System.out.println("---------------- COLUNAS ----------------");
 
          System.out.println("Soma da primeira COLUNA da matriz: " + somacoluna + "\n");
 
