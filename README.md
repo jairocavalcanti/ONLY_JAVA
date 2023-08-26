@@ -15,6 +15,5 @@
 - MATRIZES
 - METODOS
 - SENHAS
-- TOUP/TOLOW (to uppercase - to lowercase)
 - TRY_CATCH
-- VARIADOS (exercicios sem um conteúdo prévio estabelecido)
+- TESTES
