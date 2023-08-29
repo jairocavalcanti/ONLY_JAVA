@@ -14,7 +14,7 @@
 - LEITURA_JAVA(leitura de arquivos)
 - MATRIZES
 - METODOS
+- POLIMORFISMO
 - SENHAS
-- TOUP/TOLOW (to uppercase - to lowercase)
+- TESTES
 - TRY_CATCH
-- VARIADOS (exercicios sem um conteúdo prévio estabelecido)
