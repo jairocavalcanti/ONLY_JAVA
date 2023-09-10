@@ -17,10 +17,10 @@ public class Player implements Consoles {
 
     @Override
     public void desligarconsole() {
-       this.setConsoledesligado(true);
       if(this.consoleligado){
-          System.out.println("Desligando console");
-       }else{
+        System.out.println("Desligando console");
+        this.setConsoledesligado(true);
+        }else{
           System.out.println("Console desligado");
        } 
     }
