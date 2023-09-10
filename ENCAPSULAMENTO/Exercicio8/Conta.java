@@ -45,11 +45,24 @@ public class Conta {
 
 
     public void depositarcreditos(int deposito){
-          créditos += deposito;
+        if (deposito > 0) {
+            créditos += deposito;
+            System.out.println("Depósito de " + deposito + " realizado com sucesso.");
+        } else {
+            System.out.println("Valor de depósito inválido.");
+        }
     }
+    
+    public boolean sacarcreditos(int saque){
+        if(saque > 0 && créditos >= saque){
+            créditos -= saque;
+            System.out.println("Saque de " + saque + " feito com sucesso!");
+            return true;
+        }else{
+            System.out.println("Saque nao realizado, saldo insuficiente ou valor invalido! ");
+            return false;
+        }
 
-    public void sacarcreditos(int saque){
-        créditos -= saque;
     }
 
     public void verificarcreditos(){

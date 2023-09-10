@@ -5,9 +5,10 @@ public class Principal {
         BancoDeDados ban = new BancoDeDados();
 
         ban.adicionarusuario("1203", "jairo", 120);
+        ban.depositarcreditos("1203", 100);
+        ban.sacarcreditos("1203", 20);
+
         ban.ConsultarCreditos("1203");
-
-
 
     }
 }

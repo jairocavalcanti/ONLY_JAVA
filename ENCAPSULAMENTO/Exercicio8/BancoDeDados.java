@@ -24,7 +24,42 @@ public class BancoDeDados {
      System.out.println(" -- Conta criada com sucesso! --");
     }
 
+
+    public void removerconta(String id){
+        for(Conta lis: lista_jogadores){
+          if(lis.getId().equals(id)){
+            lista_jogadores.remove(lis);
+            System.out.println("-- Conta fechada com sucesso! --");
+            System.out.println("A conta registrada no ID: " + lis.getId() + " não é mais existente.");
+            return;
+          }
+        }
+      System.out.println("ID inserido não existente, conta não encontrada.");
+      }
+
+
+   public void sacarcreditos(String id, Integer valor){
+     for(Conta lis: lista_jogadores){
+      if(lis.getId().equals(id)){
+        lis.sacarcreditos(valor);
+        return;
+      }
+     }
+     System.out.println("ID inserido não existente, conta não encontrada.");
+    }
     
+
+    public void depositarcreditos(String id, Integer valor){
+      for(Conta lis: lista_jogadores){
+        if(lis.getId().equals(id)){
+          lis.depositarcreditos(valor);
+          return;
+        }
+      }
+     System.out.println("ID inserido não existente, conta não encontrada.");
+    }
+
+
    public void ConsultarCreditos(String id){
       for(Conta lis: lista_jogadores){
           if(lis.getId().equals(id)){
@@ -32,13 +67,7 @@ public class BancoDeDados {
             return;
           }
       }
-    System.out.println("!! conta nao encontrada !!");
-   
+    System.out.println("ID inserido não existente, conta não encontrada.");
     }
-
-
-
-   
-
 
 }
