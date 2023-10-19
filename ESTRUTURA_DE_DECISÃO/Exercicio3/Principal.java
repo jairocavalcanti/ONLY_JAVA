@@ -1,4 +1,4 @@
-package ESTRUTURA_SEQUENCIAL.Exercicio3;
+package ESTRUTURA_DE_DECISÃO.Exercicio3;
 import java.util.Scanner;
 
 /* Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido */
