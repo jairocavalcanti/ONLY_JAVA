@@ -13,7 +13,7 @@ Estado Civil: 's', 'c', 'v', 'd';
 public class Principal { 
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
-      int limite = 0;
+      int limite = 1000;
       boolean nomecorreto = false;
       boolean idadecorreta = false;
       boolean salariocorreto = false;
@@ -22,6 +22,7 @@ public class Principal {
 
 
       for(int i = 0; i< limite; i++){
+        System.out.println();
         System.out.println("Insira um nome com mais de 3 caracteres: ");
         String nome = scanner.next();
         if(nome.length() > 3){
@@ -49,7 +50,7 @@ public class Principal {
 
         System.out.println("Insira o sexo: F - feminino // M - masculino");
         String sexo = scanner.next();
-        if(sexo.toUpperCase().equals("f") || sexo.toUpperCase().equals("m")){
+        if(sexo.toUpperCase().equals("F") || sexo.toUpperCase().equals("M")){
             sexocorreto = true;
         }else{
             sexocorreto = false;
@@ -67,6 +68,7 @@ public class Principal {
         boolean dadoscorretos = nomecorreto && idadecorreta && salariocorreto && sexocorreto && estado_civil_correto;
 
         if(dadoscorretos){
+            System.out.println();
             System.out.println("Nome: " + nome);
             System.out.println("Idade: " + idade);
             System.out.println("Salario: " + salario);
@@ -75,17 +77,18 @@ public class Principal {
             System.out.println("Dados inseridos corretamente !");
             break;
         }else{
-            System.out.println("Um dos dados foi inserido corretamente, observe abaixo: ");
+            System.out.println();
+            System.out.println("Um dos dados foi inserido incorretamente, observe abaixo: ");
             if(!nomecorreto){
-                System.out.println("Nome inserido incorretamente! " + nome);
+                System.out.println("Nome inserido incorretamente! ---- " + nome);
             }if(!idadecorreta){
-                System.out.println("Idade inserida incorretamente! " + idade);
+                System.out.println("Idade inserida incorretamente! ---- " + idade);
             }if(!salariocorreto){
-                System.out.println("Salario inserido incorretamente!" + salario);
+                System.out.println("Salario inserido incorretamente! ---- " + salario);
             }if(!sexocorreto){
-                System.out.println("Sexo inserido incorretamente! " + sexo);
+                System.out.println("Sexo inserido incorretamente! ---- " + sexo);
             }if(!estado_civil_correto){
-                System.out.println("Estado civil inserido incorretamente! " + ec);
+                System.out.println("Estado civil inserido incorretamente! ---- " + ec);
             }
         }
 
