@@ -21,17 +21,20 @@ public class Principal {
       double crescimentoA = 0.03;
       double crescimentoB = 0.015;
 
+   
      
         while(A < B){
-          A += crescimentoA;
-          B += crescimentoB;
+         // A = A + (A * crescimentoA)
+          A += (A * crescimentoA);
+          B += (B * crescimentoB);
           anos += 1;
-          }
+        }
          
           System.out.println();
           System.out.println("População A superou a população B em " + anos + " anos!");
-          System.out.println("Populaçao cidade A: " + A);
-          System.out.println("População cidade B: " + B); 
+          System.out.printf("Populaçao cidade A: %.2f" , A);
+          System.out.println();
+          System.out.printf("População cidade B: %.2f" , B); 
           
         
       
