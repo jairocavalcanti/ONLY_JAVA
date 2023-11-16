@@ -1,4 +1,4 @@
-package Exercicio1;
+package ARRAY_LIST_E_ARRAY.Exercicio17;
 
 public class Contato {
     

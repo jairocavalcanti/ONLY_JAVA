@@ -1,4 +1,4 @@
-package Exercicio1;
+package ARRAY_LIST_E_ARRAY.Exercicio17;
 
 import java.util.Scanner;
 import java.util.Random;
@@ -30,6 +30,7 @@ public class Principal {
       " // 2 - Mostrar cadastros" +
       " // 3 - Excluir cadastro"  + 
       " // 4 - Buscar cadastro por ID" + 
+      " // 5 - Alterar contato por ID" +
       " // 0 - Encerrar lista");
       int escolha = scanner.nextInt();
 
@@ -84,10 +85,9 @@ public class Principal {
         
          case 4:
 
-         System.out.println("Insira o ID do contato que deseja achar:           (Voltar para tela de opçoes - 0)");
+         System.out.println("Insira o ID do contato que deseja achar na lista:           (Voltar para tela de opçoes - 0)");
          int id2 = scanner.nextInt();
 
-         
          if(id2 == 0){
             break;
          }
@@ -95,9 +95,20 @@ public class Principal {
          listaContato.mostrarcontatoporid(id2);
          break;
 
+         case 5:
+
+         System.out.println("Insira o ID do contato que deseja alterar:                  (Voltar para tela de opçoes - 0)");
+         int id3 = scanner.nextInt();
+
+         listaContato.alterarcontatoporid(id3, scanner);
+         break;
+
+
          default:
          
+         System.out.println("------------------------------------------");
          System.out.println("Insira uma alternativa válida !");
+         System.out.println("------------------------------------------");
         
          break;
       }
