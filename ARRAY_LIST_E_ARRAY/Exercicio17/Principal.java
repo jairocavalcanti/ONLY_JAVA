@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Random;
 
 public class Principal {
-    public static void main(String[] args) {
+   public static void main(String[] args)  {
       int cont = 0;
       ListaContato listaContato = new ListaContato();
       Scanner scanner = new Scanner(System.in);
@@ -53,12 +53,12 @@ public class Principal {
             System.out.println(id);
             System.out.printf("Idade: ");
             Double idade = scanner.nextDouble();
-
+           
             System.out.println("------------------------------------------");
-
+            
             Contato contato = new Contato(nome, id, idade);
-
-            listaContato.addcontato(contato);
+           
+            listaContato.addcontato(contato); 
          }
          break;
         
@@ -114,7 +114,7 @@ public class Principal {
       }
    }
 
-
+   
       scanner.close();
    }
     
