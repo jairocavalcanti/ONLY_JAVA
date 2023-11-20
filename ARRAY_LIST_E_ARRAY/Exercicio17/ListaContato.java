@@ -55,8 +55,9 @@ public class ListaContato {
                }           
           }
 
+          System.out.println("------------------------------------------");
           System.out.println("ID inserido não existente na lista!");
-
+          System.out.println("------------------------------------------");   
 
      }
 
@@ -138,7 +139,11 @@ public class ListaContato {
 
                }
           }
-           
+        
+          System.out.println("------------------------------------------");
+          System.out.println("ID inserido nao existente! ");
+          System.out.println("------------------------------------------"); 
+     
      }
 
 

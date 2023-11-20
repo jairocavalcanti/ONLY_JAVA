@@ -100,6 +100,10 @@ public class Principal {
          System.out.println("Insira o ID do contato que deseja alterar:                  (Voltar para tela de opçoes - 0)");
          int id3 = scanner.nextInt();
 
+         if(id3 == 0){
+            break;
+         }
+
          listaContato.alterarcontatoporid(id3, scanner);
          break;
 
