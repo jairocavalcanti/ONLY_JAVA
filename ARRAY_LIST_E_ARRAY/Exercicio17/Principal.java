@@ -113,9 +113,8 @@ public class Principal {
          break;
       }
    }
-
-   
-      scanner.close();
+    
+   scanner.close();
    }
     
 }

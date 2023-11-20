@@ -68,7 +68,6 @@ public class Metodos {
 
 
     public void multiplicarmatrizes(int matriz1[][], int matriz2[][], int matriz3[][]){
- 
 
         
     }
