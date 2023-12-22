@@ -17,27 +17,24 @@ for igual ao número de linhas da segunda matriz.
 
 public class Principal {
     public static void main(String[] args) {
+    
     Scanner scanner = new Scanner(System.in);
     Metodos met = new Metodos();
 
-    System.out.println("Insira o tamanho da matriz_1: ");
+    System.out.println("Insira a quantidade de linhas da matriz_1: ");
     int N = scanner.nextInt();
 
-    System.out.println("Insira o tamanho da matriz_2: ");
+    System.out.println("Insira o tamanho das linhas e colunas da matriz_2: ");
     int N2 = scanner.nextInt();
-
 
     int matriz1 [][] = new int[N][N];
     int matriz2 [][] = new int[N2][N2];
-    int matriz3 [][] = new int[N2][N2];
-
-
 
     System.out.println("-----------------------------------------------------");
 
     met.preenchermatrizes(matriz1, matriz2, scanner);
     met.mostrarmatrizes(matriz1, matriz2);
-    met.multiplicarmatrizes(matriz1, matriz2, matriz3);
+    met.multiplicarmatrizes(matriz1, matriz2);
 
     scanner.close();
     }
