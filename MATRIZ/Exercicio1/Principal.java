@@ -5,7 +5,7 @@ import java.util.Scanner;
   Faça um programa que gere uma matriz de proporções definidas pelo usuário, 
   mostre a matriz preenchida também pelo usuário e exiba uma mensagem e a 
   quantidade de numeros negativos na matriz caso algum dos elementos inseridos seja negativo
- */
+*/
 
 public class Principal {
     public static void main(String[] args) {

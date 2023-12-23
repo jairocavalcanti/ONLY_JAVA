@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /* 
   Faça um programa que conte a quantidade de numeros pares e impares
-  numeros precisam ser inseridos pelo usuario em uma matriz 2x2
+  numeros precisam ser inseridos pelo usuario em uma matriz 2x2 estatica
 */
 
 public class Principal {

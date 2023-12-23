@@ -1,6 +1,8 @@
 package MATRIZ.Exercicio2;
 
-/* Programa para teste simples com matrizes pre definidas do tipo String, Integer e Double */
+/* 
+  Programa para teste simples com matrizes pre definidas do tipo String, Integer e Double 
+*/
 
 public class Principal {
     public static void main(String[] args) {

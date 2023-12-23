@@ -7,8 +7,7 @@ preencha a matriz e verifique se a matriz é um quadrado
 mágico. Diz-se que uma matriz é um quadrado 
 mágico quando a soma de todas as suas linhas, todas as
 suas colunas, sua diagonal principal e sua 
-diagonal secundária resultam no mesmo valor. Exemplo
-abaixo.  
+diagonal secundária resultam no mesmo valor. Exemplo abaixo.  
 */
 
 public class Principal {

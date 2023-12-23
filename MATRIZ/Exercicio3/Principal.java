@@ -3,8 +3,7 @@ import java.util.Scanner;
 
 /*  
  Faça um programa que some os numeros ímpares, 
- realize a soma das colunas 
- e também realize a soma das linhas de uma matriz de dimensão 2x2
+ realize a soma das colunas e também realize a soma das linhas de uma matriz de dimensão 2x2
 */
 
 public class Principal {
