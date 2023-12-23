@@ -1,6 +1,10 @@
 package MATRIZ.Exercicio5;
-
 import java.util.Scanner;
+
+ /* 
+  Faça um programa para que o usuário preencha uma matriz 2x2
+  Logo após o preenchimento, o programa deve mostrar a diagonal principal da matriz
+ */
 
 public class Principal {
     public static void main(String[] args) {

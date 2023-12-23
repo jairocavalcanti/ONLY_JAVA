@@ -1,13 +1,12 @@
 package MATRIZ.Exercicio2;
 
+/* Programa para teste simples com matrizes pre definidas do tipo String, Integer e Double */
+
 public class Principal {
     public static void main(String[] args) {
         
     //inserindo elementos previamente na matriz
-    //necessario 2 pares de chaves 
-    /*virgula funciona como quebra de linha neste caso, 
-      tirando a necessidade do uso de outras formas para quebra de linha,
-      como por exemplo '%n' */
+    //virgula funciona como quebra de linha neste caso 
       
       String matrix[][] = {{
         " a " + " b " + " c " + " d "
@@ -16,7 +15,7 @@ public class Principal {
         + " m " + " n " + " o " + " p ", 
        " q " + " r " + " s " + " t " + " u "}};
        
-      int matrix2[][] = new int[3][4];
+      Integer matrix2[][] = new Integer[3][4];
       //19,25,100,99,
       //10,7,25,14,
       //35,2,47,74

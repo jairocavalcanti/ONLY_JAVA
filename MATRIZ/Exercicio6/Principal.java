@@ -1,5 +1,4 @@
 package MATRIZ.Exercicio6;
-
 import java.util.Scanner;
 
 /*
@@ -11,6 +10,7 @@ suas colunas, sua diagonal principal e sua
 diagonal secundária resultam no mesmo valor. Exemplo
 abaixo.  
 */
+
 public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
