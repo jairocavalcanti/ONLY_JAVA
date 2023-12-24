@@ -72,7 +72,9 @@ public class Metodos {
 
         if(colunas_1 != linhas_2){
             System.out.println("Nao foi possivel multiplicar as matrizes !");
-        }
+            System.out.println( "número de colunas da primeira matriz diferente do número de linhas da segunda matriz !");
+           
+        }else{
 
         int resultado [][] = new int[linhas_1][colunas_2];
 
@@ -94,9 +96,8 @@ public class Metodos {
             }
             System.out.printf("%n");
         }
-      
-    }
-
+     }
+   }
  }
    
 
