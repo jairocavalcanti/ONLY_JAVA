@@ -41,7 +41,9 @@ public class Principal {
             case 1:
                 System.out.println();
                 System.out.println("Operação de SOMA selecionada! ");
-               
+                ops_2.somarmatrizes(linhas_1, colunas_1, linhas_2, colunas_2, matriz_1, matriz_2, matriz_soma);
+                ops_2.resultado_soma(linhas_1, colunas_1, linhas_2, colunas_2, matriz_1, matriz_2, matriz_soma);
+
                 break;
             
             case 2: 
