@@ -7,7 +7,7 @@ public class Biblioteca {
     private String titulo;
     private Integer ID;
     private boolean emprestado;
-    
+
 
     private ArrayList<Biblioteca> listaBiblioteca = new ArrayList<>();
 
@@ -48,18 +48,29 @@ public class Biblioteca {
     }
 
 
-    public void adicionar_na_lista(DVD dvd){
+    public void adicionar_na_lista(Biblioteca item){
 
-        listaBiblioteca.add(dvd);
-        
+        listaBiblioteca.add(item);
     }
 
     public void mostrar_lista(){
         StringBuilder sb = new StringBuilder();
         for (Biblioteca bibli : listaBiblioteca) {
-            sb.append("Titulo do produto: ").append(bibli.getTitulo());
-            sb.append("ID do produto: ").append(bibli.getID());
-            sb.append("Situação: ").append(bibli.getEmprestado());
+           
+            if(bibli instanceof DVD){
+               DVD dvd = (DVD) bibli;
+               sb.append("-------------------------------------------------------------");
+               sb.append("Titulo do produto: ").append(bibli.getTitulo() + "/ " + "\n");
+               sb.append("ID do produto: ").append(bibli.getID() + "/ " + "\n");
+               sb.append("Situação: ").append(bibli.getEmprestado() + "/ " + "\n");
+               sb.append("Diretor: ").append(dvd.getDiretor() + "/ " + "\n");
+               sb.append("Minutos_de_duração: ").append(dvd.getMinutos() + "/ " + "\n");
+               sb.append("Minutos_de_duração: ").append(dvd.getClassificacaoIndicativa() + "/ " +"\n");
+               sb.append("-------------------------------------------------------------");
+
+               System.out.println(sb.toString()); 
+            }
+            
         }
     }
 }
