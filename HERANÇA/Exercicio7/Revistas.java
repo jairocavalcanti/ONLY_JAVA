@@ -1,16 +1,15 @@
 package HERANÇA.Exercicio7;
 
 public class Revistas extends Biblioteca {
-    
+
     private String editora;
     private Integer numeroDeEdicao;
     private Integer idDoLivro;
-   
 
-    public Revistas(){
+    public Revistas() {
 
     }
-   
+
     public Revistas(String titulo, Integer iD, boolean emprestado, String editora, Integer numeroDeEdicao,
             Integer idDoLivro) {
         super(titulo, iD, emprestado);
@@ -24,7 +23,6 @@ public class Revistas extends Biblioteca {
         this.numeroDeEdicao = numeroDeEdicao;
         this.idDoLivro = idDoLivro;
     }
-
 
     public String getEditora() {
         return editora;
